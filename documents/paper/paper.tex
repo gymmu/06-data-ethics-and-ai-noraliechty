@@ -6,6 +6,9 @@
 \usepackage{hyperref}
 \usepackage{csquotes}
 \usepackage[a4paper]{geometry}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{caption}
 
 \usepackage[
     backend=biber,
@@ -34,11 +37,21 @@
 \maketitle
 
 \abstract{
+Dies ist ein Projekt in der Informatik zum Thema Data Ethics am Gymnasium Muttenz. Es dient dazu, eine Fragestellung zu beantworten und den Leserinnen und Lesern einen guten Überblick über das Thema zu verschaffen.
 
-    Dies ist ein Projekt in der Informatik zum Thema Data Ethics am Gymnasium Muttenz. Es dient dazu, eine Fragestellung zu beantworten und den Leserinnen und Lesern einen guten Überblick über das Thema zu verschaffen.
+\vspace*{1cm}
+
+\begin{figure}[h]
+    \centering 
+    \includegraphics[width=0.5\textwidth]{23-07-kinder-und-KI.jpg} 
+    %\caption{Ein erstes Bild}
+    %\label{fig:meme}
+    \end{figure}
 }
 
 \tableofcontents
+
+\parindent=0em 
 
 \chapter{Einleitung}
 
@@ -109,8 +122,7 @@ Die Tatsache, dass KI nicht in der Lage ist, menschliches Einfühlungsvermögen 
 Der Einsatz von KI beeinflusst das Leben und die Entwicklung von Kindern in verschiedenen Bereichen und auf vielfältige Weise. In der Bildung unterstützt KI personalisierte Lernansätze und verbessert den Zugang zu Bildungsmaterialien. In der Gesundheitsversorgung ermöglicht KI bessere Diagnosen und den Wünschen entsprechende Behandlungspläne. In der Freizeit bietet KI interaktive Lern- und Unterhaltungsangebote. 
 Jedoch ist eine sorgfältige Überwachung und Regulierung des Einsatzes von KI im Kinderleben erforderlich, um Datenschutz, Ethik und Sicherheit vollständig gewährleisten zu können. 
 
-\input{chap_methode.tex}
-
+\nocite{*}
 \printbibliography
 
 \end{document}
